@@ -1,74 +1,26 @@
 <!DOCTYPE html>
 <html>
-<!-- title  -->
 <head>
-	<title>What an Ugly Page</title>
+    <style>
+        div { background-color: lightgrey; border-radius: 0 5rem 5rem 0;padding: 4px;}
+        h1 { color:#ff0000; padding: 0; margin: 0; float:left; line-height: 1.3; }
+        p { color: blue; padding: 0 4rem 0 0; }
+        a { color:#ff0000; }
+    </style>
 </head>
 <body>
-	<!-- body -->
-	<!-- heading one  -->
-	<h1>What an Ugly Page</h1>
-	<h3>There's plenty of room for growth</h3>
-	<!-- navigationbar -->
-	<nav>
-		<!-- unordered lists -->
-		<ul>
-			<li>Dirtbikes
-				<ul>
-					<li>Accessories
-						<ul>
-							<li><a rel="nofollow" href="https://www.motosport.com/dirtbike/graphics" target="_blank">Stickers</a></li>
-							<li><a rel="nofollow" href="https://www.motosport.com/dirtbike/body-parts-and-accessories" target="_blank">Plastics</a></li>
-						</ul>
-					</li>
-					<li>Upgrades
-						<ul>
-							<li><a rel="nofollow" href="https://www.motosport.com/dirtbike/exhaust" target="_blank">Exhaust</a></li>
-							<li><a rel="nofollow" href="https://www.motosport.com/dirtbike/engine-parts-and-accessories" target="_blank">Engine</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>Video Games
-				<ul>
-					<li>Single Player
-						<ul>
-							<li><a rel="nofollow" href="https://www.guerrilla-games.com/play/horizon" target="_blank">Action&mdash;adventure</a></li>
-							<li><a rel="nofollow" href="https://nba.2k.com/?release=nba-2k22-cross-gen-bundle-digital-only&platform=playstation-4-digital&region=usa&medium=digital" target="_blank">Sports</a></li>
-						</ul>
-					</li>
-					<li>Multiplayer
-						<ul>
-							<li><a rel="nofollow" href="https://www.stardewvalley.net/" target="_blank">RPG</a></li>
-							<li><a rel="nofollow" href="https://civilization.com/" target="_blank">Strategy</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>Movies</li>
-			<li>TV Shows</li>
-		</ul>
-	</nav>
-	<!-- main -->
-	<main>
-		<!-- heading 2 -->
-		<h3>Favorites</h3>
-		<!-- unordered lists -->
-		<ul>
-			<li>The Office</li>
-			<li>Rick and Morty</li>
-			<li>Call of Duty</li>
-			<li>Dark Souls</li>
-			<li>Overwatch</li>
-		</ul>
-	</main>
-	<!-- footer -->
-	<footer>
-		<small>
-			<i>
-				Copyright &copy; 2021 Joshua Schoeling
-			</i>
-		</small>
-	</footer>
+
+<div>
+    <h1>
+        <a>Lorem ipsum</a>
+    </h1>
+    <p>
+    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, <a>Lorem ipsum</a> sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+    </p>
+</div>
+
 </body>
 </html>
