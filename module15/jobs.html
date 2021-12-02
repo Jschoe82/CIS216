@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <title>JavaJam Coffee Joint</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+   <h1>JavaJam Coffee Joint</h1>
+</header>
+<nav>
+   <ul>
+  
+   <li><a href="index.html">Home</a></li>
+   <li><a href="menu.html">Menu</a></li>
+   <li><a href="music.html">Music</a></li>
+   <li><a href="jobs.html">Jobs</a></li>
+   </ul>
+</nav>
+<main>
+   <div id="herojobs"></div>
+   <h2>Jobs at JavaJam</h2>
+   <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).</p>
+<form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+   <label for="name">* Name: </label>
+   <input type="text" name="myName" id="name" required>
+   <label for="email">* E-mail: </label>
+   <input type="email" name="myEmail" id="email" required>
+      <p>Desired Hours:</p>
+      <label for="Full">Full Time</label>
+      <input type="radio" id="Full" name="Hours">
+      <label for="Part">Part Time</label>
+      <input type="radio" id="Part" name="Hours">
+      <label for="exp">* Experience:</label>
+      <textarea name="myExperience" required rows="2" cols="20"></textarea>
+   <input type="submit" value="Apply Now" id="mySubmit">
+</form>
+</main>
+    <footer>
+        <b>Copyright &copy; 2021 JavaJam Coffee Joint<br>
+        <a href="mailto:">yourfirstname@yourlastname.com</a></b>
+    </footer>
+</div>
+</body>
+</html>
