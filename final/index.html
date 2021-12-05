@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <title>Dirt Bike Riding in Arizona</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+<div id="wrapper">
+<header>
+   <h1>Dirt Bike Riding in Arizona</h1>
+</header>
+<nav>
+   <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="supplies.html">Supplies</a></li>
+      <li><a href="information.html">Information</a></li>
+   </ul>
+</nav>
+<main>
+   <div id="Jump"></div>
+   <h2>What better state to ride in than Arizona!</h2>
+   <p>I will cover all of the important information you will need to know to get out and get riding in the wonderful state of Arizona!</p>
+   <h3>Some of the information I will cover:</h3>
+   <ul>
+      <li>Great places to check out.</li>
+      <li>Any supplies that can be helpful out in the desert.</li>
+      <li>Legal information to register your offroad vehicles.</li>
+   </ul>
+   <p>If you would like to sign up to receive more information about riding in Arizona, please fill out the form below.</p>
+   <form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+      <label for="name">* Name: </label>
+      <input type="text" name="myName" id="name" required>
+      <label for="email">* E-mail: </label>
+      <input type="email" name="myEmail" id="email" required>
+      <label for="phonenumber"> Phone Number: </label>
+      <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      <label for="bike"> Bike Size </label>
+      <input type="text" name="engine" id="engine">
+      <p>Rider Experience</p>
+      <label for="novice">Novice</label>
+      <input type="radio" id="novice" name="experience">
+      <label for="intermediate">Intermediate</label>
+      <input type="radio" id="intermediate" name="experience">
+      <label for="expert">Expert</label>
+      <input type="radio" id="expert" name="experience">
+      <input type="submit" value="Submit Now" id="mySubmit">
+   </form>
+</main>
+   <footer>
+      <b>Copyright &copy; 2021 Joshua Schoeling<br>
+      <a href="mailto:">firstname@lastname.com</a></b>
+   </footer>
+</div>
+</div>
+</body>
+</html>

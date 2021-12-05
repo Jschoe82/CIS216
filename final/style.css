@@ -1,0 +1,134 @@
+{box-sizing: border-box;}
+
+#Jump {background-image: url(image/jump.jpg);
+	   background-size: 100% 100%;
+	   height: 300px;}
+
+#gear {background-image: url(image/gear.jpg);
+        background-size: 50% 100%;
+        height: 300px;}
+
+#trail {background-image: url(image/trail.jpg);
+        background-size: 100% 100%;
+        height: 450px;}
+
+#track {background-image: url(image/track.jpg);
+        background-size: 100% 100%;
+        height: 450px;}
+
+#dirtbike {background-image: url(image/dirtbike.jpg);
+        background-size: 100% 100%;
+        height: 350px;}
+
+.column {float: left;
+        width: 49%;
+        background-size: 50%;
+        padding: 5px;}
+
+.row::after {content: "";
+        clear: both;
+        display: table;}
+
+#wrapper {background-color: #D0C39D;
+          width: 90%;
+          min-width: 550px;
+          max-width: 1920px;
+          box-shadow: 3px 3px 3px #202136;
+          margin-right: auto;
+          margin-left: auto;}
+
+#nav-bar {width:200px;
+   margin-right: 0px;
+   margin-left : 0px;}
+
+#mySubmit {margin-left: 10em;}
+
+label {float: left;
+       display: block;
+       text-align: right;
+       width: 8em;
+       padding-right: 1em;
+       clear: left;}
+
+input {display: block; margin-bottom: 1em;}
+
+nav a:link {color: #9E7B04;}
+nav a:visited {color: #DC7633;}
+nav a:hover {color: #F2B02B;}
+
+nav { font-weight: bold;
+      text-align: center;
+      font-size: 1.5em;
+      padding-top: 10px;
+      float: left;
+      width: 200px; }
+
+nav ul { list-style-type: none; padding-left: 0px; }
+nav a { text-decoration: none; }
+
+body {background-color: #D0C39D;
+   	  font-size: .8em;
+      background-image: url(image/webb.png);
+      font-family: Verdana, Arial, sans-serif;}
+
+header {background-color: #D0C39D;
+        height: 100px;
+        background-image: url(image/logo.png);
+        background-repeat: no-repeat;
+        border: 2px solid #221811;}
+
+h1 {font-size: 3em;
+   padding-top: 0px;
+   padding-left: 200px;
+   line-height: 200%;}
+
+main {padding: 0px 0px 2em 0px;
+      margin-left: 200px;
+      background-color: #FCEBB6;
+      font-color: #221811;}
+
+footer {background-color: #D0C39D;
+       font-size: .60em;
+       font-style: italic;
+       text-align: center;
+       padding-bottom: 10px;
+       border: 2px solid #221811;}
+
+table {width: 90%;
+       border-spacing: 0;
+       margin: 0 auto;}
+
+td, th { padding: 10px; }
+
+tr:nth-of-type(odd) {
+       background-color: #D0C39D;}
+
+th {text-align: center;}
+
+td {text-align: left;}
+
+iframe {margin-left: 35%;}
+
+.gear {padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;}
+
+.floatleft {float: left; padding: 0px 20px 20px 0px;}
+
+img { padding: 0px 10px }
+
+h4 { background-color: #D0C39D;
+   font-size: 1.2em;
+   padding-left: 10px;
+   padding-bottom: 0px;
+   border-bottom: 2px solid #221811;
+   text-transform: uppercase;
+   clear: left; }
+
+li {font-weight: bold;}
+
+.container {padding: 1em 0;
+        display: flex;
+        flex-flow: column;
+        margin: 0.5em 0.5em;
+        width: calc(100% - 3em);}
